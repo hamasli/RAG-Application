@@ -107,10 +107,11 @@ uvicorn app.main:app --reload
 
 # Open in browser
 # http://127.0.0.1:8000/docs
-
 And test by giving different commands.
 
-# Build Docker image
+
+You can also run the docker container by running below commands and test the api.
+## Build Docker image
 docker build -t rag-fastapi-app .
 
 # Run container
